@@ -1,0 +1,29 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: micro-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: micro-gateway9527
+    prefer-ip-address: true
+
+zuul:
+  prefix: /api
+  ignored-services: "*"
+  routes:
+    mydept.serviceId: micro-provider-dept
+    mydept.path: /mydept/**
+
+
+info:
+  app.name: atguigu-microcloud
+  company.name: www.atguigu.com
+  build.artifactId: ${project.artifactId}$
+  build.version: ${project.version}$
+
