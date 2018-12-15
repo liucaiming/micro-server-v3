@@ -1,8 +1,8 @@
-package com.lcm.it.v1.cloud.service.impl;
+package com.lcm.it.v2.cloud.service.impl;
 
-import com.lcm.it.v1.cloud.mapper.DeptMapper;
-import com.lcm.it.v1.cloud.service.DeptService;
-import com.lcm.it.v1.cloud.vo.Dept;
+import com.lcm.it.v2.cloud.mapper.DeptMapper;
+import com.lcm.it.v2.cloud.service.DeptService;
+import com.lcm.it.v2.cloud.vo.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

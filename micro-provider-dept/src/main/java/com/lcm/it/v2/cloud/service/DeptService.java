@@ -1,6 +1,6 @@
-package com.lcm.it.v1.cloud.service;
+package com.lcm.it.v2.cloud.service;
 
-import com.lcm.it.v1.cloud.vo.Dept;
+import com.lcm.it.v2.cloud.vo.Dept;
 
 import java.util.List;
 
