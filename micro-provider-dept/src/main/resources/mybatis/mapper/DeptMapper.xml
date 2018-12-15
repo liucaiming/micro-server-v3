@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.lcm.it.v2.cloud.mapper.DeptMapper">
+<mapper namespace="com.lcm.it.v3.cloud.mapper.DeptMapper">
 
 	<select id="findById" resultType="Dept" parameterType="Long">
 		select deptno,dname,db_source from dept where deptno=#{deptno};

@@ -1,4 +1,4 @@
-package com.lcm.it.v2.cloud.config;
+package com.lcm.it.v3.cloud.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

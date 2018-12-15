@@ -1,4 +1,4 @@
-package com.lcm.it.v2.cloud;
+package com.lcm.it.v3.cloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

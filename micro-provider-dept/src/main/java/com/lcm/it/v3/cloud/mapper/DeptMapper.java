@@ -1,6 +1,6 @@
-package com.lcm.it.v2.cloud.mapper;
+package com.lcm.it.v3.cloud.mapper;
 
-import com.lcm.it.v2.cloud.vo.Dept;
+import com.lcm.it.v3.cloud.vo.Dept;
 import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 

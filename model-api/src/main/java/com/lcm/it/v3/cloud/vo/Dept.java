@@ -1,4 +1,4 @@
-package com.lcm.it.v2.cloud.vo;
+package com.lcm.it.v3.cloud.vo;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

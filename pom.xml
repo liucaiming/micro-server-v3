@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.lcm.it.v2.cloud</groupId>
-    <artifactId>micro-server-v2</artifactId>
+    <groupId>com.lcm.it.v3.cloud</groupId>
+    <artifactId>micro-server-v3</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
@@ -76,7 +76,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>micro-server-v2</finalName>
+        <finalName>micro-server-v3</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

@@ -1,7 +1,7 @@
-package com.lcm.it.v2.cloud.controller;
+package com.lcm.it.v3.cloud.controller;
 
-import com.lcm.it.v2.cloud.service.DeptService;
-import com.lcm.it.v2.cloud.vo.Dept;
+import com.lcm.it.v3.cloud.service.DeptService;
+import com.lcm.it.v3.cloud.vo.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
