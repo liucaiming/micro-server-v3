@@ -15,6 +15,7 @@
         <module>micro-eureka</module>
         <module>micro-gateway</module>
         <module>micro-config</module>
+        <module>micro-config-client</module>
     </modules>
 
     <properties>
